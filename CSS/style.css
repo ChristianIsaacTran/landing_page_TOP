@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 .image {
     display: block;
     width: 300px;
@@ -6,12 +16,15 @@
 
 .header.container {
     background-color: #1F2937;
+    padding: 30px 250px 80px;
 }
 
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 10px;
 }
 
 a {
@@ -25,3 +38,13 @@ button, a, .header.container {
 button {
     background-color: #3882F6; 
 }
+
+.header.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
