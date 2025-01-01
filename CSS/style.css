@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-family: Roboto;
 }
 
 *,
@@ -8,8 +9,9 @@ html {
     box-sizing: inherit;
 }
 
-.image {
+.headerimage {
     width: 300px;
+    height: 20px;
     border: 5px dotted black;
 }
 
@@ -23,7 +25,7 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
 
 a {
@@ -36,6 +38,9 @@ button, a, .headercontainer {
 
 button {
     background-color: #3882F6; 
+    border-radius: 10px;
+    font-weight: 900;
+    border: none;
 }
 
 .nav {
@@ -49,15 +54,32 @@ h1, h2, h3, h4, h5, h6 {
 
 .headercontent {
     display: flex;
-    
     flex-direction: column;
-    width: 300px;
+    flex-wrap: wrap;
+    flex-basis: 500px;
 }
 
 .contentcontainer {
     display: flex;
     justify-content: space-between;
+    margin-top: 110px;
 }
 
+.headerbutton {
+    align-self: flex-start;
+    margin-top: 10px;
+    padding: 10px 40px;
+}
 
+.headertitle {
+    font-size: 60px;
+}
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a, .headersubtext {
+    color: rgba(255, 255, 255, 0.618);
+}
