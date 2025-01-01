@@ -1,4 +1,11 @@
 .header.image {
-    width: 30px;
-    border: dotted black;
+    display: block;
+    width: 300px;
+    border: 5px dotted black;
+}
+
+.card.image {
+    display:block;
+    width: 300px;
+    border: 5px dotted black;
 }
