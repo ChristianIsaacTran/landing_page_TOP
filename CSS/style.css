@@ -125,5 +125,6 @@ a, .headersubtext{
 .subtext {
     text-align: center;
     color: rgb(83, 83, 83);
+    width: 190px;
 }
 
