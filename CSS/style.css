@@ -9,10 +9,15 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    display: flex; 
+    flex-direction: column;
+}
+
 .headerimage {
     width: 600px;
     height: 300px;
-    border: 5px dotted black;
+    flex: none;
 }
 
 .headercontainer {
@@ -80,6 +85,45 @@ p {
     padding: 0;
 }
 
-a, .headersubtext {
+a, .headersubtext{
     color: rgba(255, 255, 255, 0.618);
 }
+
+.cardcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.cardinner {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.cardtitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.cardimage {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid rgb(66, 60, 243);
+}
+
+.card {
+    flex: none;
+    flex-basis: 200px;    
+}
+
+.subtext {
+    text-align: center;
+    color: rgb(83, 83, 83);
+}
+
