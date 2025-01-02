@@ -154,7 +154,7 @@ a, .headersubtext{
 
 .signupcontainer {
     display: flex;
-    padding: 100px 300px;
+    padding: 120px 300px;
     justify-content: center;
     align-items: center;
 }
@@ -181,5 +181,14 @@ a, .headersubtext{
     margin-right: 150px;
     margin-left: 120px;
     flex: none;
+}
+
+.footercontainer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
