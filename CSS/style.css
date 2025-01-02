@@ -128,3 +128,27 @@ a, .headersubtext{
     width: 190px;
 }
 
+.quotecontainer {
+    background-color: #E5E7EB;
+}
+
+.quoteinner {
+    padding: 200px 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: #1F2937;
+
+}
+
+.quotetext {
+    font-size: 36px;
+    width: 800px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 900;
+}
+
